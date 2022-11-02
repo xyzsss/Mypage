@@ -196,33 +196,16 @@ position: absolute;
 <div style="background:#f8f8f8;height:50px;">
 <br />
 <form name="searchform" onSubmit="return dosearch();" >
-
-<input name="ie" type="hidden"  value="UTF-8">
-<input type="text" name="searchterms" class="i">
-
-<select name="sengines" >
-<option value="https://cn.bing.com/search?q=" selected>bing</option>
-<option value="http://www.google.com/search?q=">谷歌</option>
-<!-- <option value="http://xueshu.baidu.com/s?wd=">百度学术</option>
-<option value="https://scholar.google.com/scholar?q=">谷歌学术</option>
-<option value="https://www.semanticscholar.org/search?q=">semanticscholar</option>
-<option value="http://s.weibo.com/weibo/">微博搜索</option>
-<option value="http://www.letpub.com.cn/?page=grant&name=">自科基金</option>
-<option value="http://www2.soopat.com/Home/Result?SearchWord=">专利搜索</option>
-<option value="https://www.zhihu.com/search?type=content&q=">知乎</option> -->
-<option value="https://search.smzdm.com/?c=home&s=">值得买</option>
- <!-- <option value="http://www.guhes.com/?keyword=">谷禾</option>
-<option value=" http://www.pindex.cn/result.html?t=1&k=">pindex</option> -->
-
-
-
-</select>
-
-
-<input type="submit" class="btn" name="SearchSubmit" value="搜索">
-
-
+  <input name="ie" type="hidden"  value="UTF-8">
+  <input type="text" name="searchterms" class="i">
+    <select name="sengines" >
+      <option value="https://cn.bing.com/search?q=" selected>bing</option>
+      <option value="http://www.google.com/search?q=">谷歌</option>
+    </select>
+  <input type="submit" class="btn" name="SearchSubmit" value="搜索">
 </form>
+
+
 
 <script type="text/javascript">
 function dosearch() {
@@ -236,138 +219,74 @@ return false;
 </div>
 </div>
 
-<!--   20170903 end -->
 
-<br /> <!-- 空一行-->
-<div class="sites">  <!-- 网址超链接开始-->
-
-
-
-<!-- <dl>
-<dt><b>学 术</b></dt>
-<dd><a href="http://xueshu.baidu.com/" target="_blank">百度学术</a></dd>
-<dd><a href="http://scholar.google.com" target="_blank">谷歌学术</a></dd>
-<dd><a href="http://gen.lib.rus.ec/" target="_blank">Lib-Gen</a></dd>
-<dd><a href="http://www.researchgate.net" target="_blank">Researchgate</a></dd>
-<dd><a href="http://www.xuebalib.com" target="_blank">学霸图书馆</a></dd>
-<dd><a href="https://www.zotero.org/" target="_blank">Zotero</a></dd>
-<dd><a href="http://www.tech110.net/" target="_blank">科技成果</a></dd>
-
-</dl> -->
-<!--     补学术    -->
-<!-- <dl>
-<dt>&nbsp;&nbsp;&nbsp;</dt>
-<dd><a href="http://www.guhes.com/" target="_blank">谷禾学术</a></dd>
-<dd><a href="https://site.sciping.com/" target="_blank">科塔学术</a></dd>
-<dd><a href="https://cn.overleaf.com/" target="_blank">Overleaf</a></dd>
-<dd><a href="https://sci-hub.se/" target="_blank">SCI-HUB</a></dd>
-<dd><a href="http://corejournal.lib.sjtu.edu.cn" target="_blank">期刊查询</a></dd>
- <dd><a href="http://datauthor.com/" target="_blank">Aatauthor</a></dd>
- <dd><a href="https://journalfinder.elsevier.com/" target="_blank">Jfinder</a></dd>
-
-
-</dl>
- <dt>&nbsp;&nbsp;&nbsp;</dt>
-<dd><a href="http://output.nsfc.gov.cn/" target="_blank">基金共享</a></dd>
-  <dd><a href="http://cxhz.hep.com.cn/" target="_blank">产学研</a></dd>
-
-
-</dl> -->
+ 
 <dl class="alt">
-<dt><b>每  日</b></dt>
-<dd><a href="http://www.shixiu.net/nanshi/zhuzuo/lzts/4294.html" target="_blank">道德经</a></dd>
-<dd><a href="https://www.jisilu.cn/" target="_blank">可转债</a></dd>
-<dd><a href="" target="_blank">招行积分</a></dd>
-<dd><a href="" target="_blank">PED</a></dd>
-<dd><a href="https://trello.com/b/ntSEmTEn/reading" target="_blank">Trello</a></dd>
-<dd><a href="https://www.yuque.com/xyzssssssss/iveht9" target="_blank">语雀</a></dd>
+  <!-- ############### 1 -->
+  <dt><b>每  日</b></dt>
+  <dd><a href="https://www.jisilu.cn/" target="_blank">可转债</a></dd>
+  <dd><a href="https://trello.com/b/ntSEmTEn/reading" target="_blank">Trello</a></dd>
+  <dd><a href="https://www.yuque.com/xyzssssssss/iveht9" target="_blank">语雀</a></dd>
+  <dd><a href="https://amymind.com/" target="_blank">Amymind</a></dd>
 </dl>
 
 <dl>  <!--     补每日    -->
-<dt>&nbsp;&nbsp;&nbsp;</dt>
-<dd><a href="" target="_blank">KEEP</a></dd>
-<dd><a href="" target="_blank">24点/数独</a></dd>
-<!-- <dd><a href="https://www.smzdm.com/" target="_blank">SMZDM</a></dd> -->
+  <dt>&nbsp;&nbsp;&nbsp;</dt>
+  <dd><a href="" target="_blank">KEEP</a></dd>
+  <dd><a href="" target="_blank">24点/数独</a></dd>
+  <dd><a href="" target="_blank">PED</a></dd>
+  <dd><a href="http://www.shixiu.net/nanshi/zhuzuo/lzts/4294.html" target="_blank">道德经</a></dd>
 </dl>
 
 
+
+<!-- ############### 2 -->
 <dl class="alt">
-<dt><b>实 用</b></dt>
-<dd><a href="http://mail.qq.com" target="_blank">qq邮箱</a></dd>
-<dd><a href="https://amymind.com/" target="_blank">画图本</a></dd>
-<dd><a href="https://note.youdao.com/" target="_blank">有道云笔记</a></dd>
-<dd><a href="https://yun.baidu.com" target="_blank">百度云盘</a></dd>
-<dd><a href="https://www.aliyundrive.com/" target="_blank">阿里云盘</a></dd>
-<dd><a href="https://www.jianguoyun.com/" target="_blank">坚果云</a></dd>
-<dd><a href="https://up.woozooo.com/mydisk.phh" target="_blank">蓝奏云</a></dd>
-<dd><a href="https://yunpan1.com/" target="_blank">阿里云盘搜索</a></dd>
+  <dt><b>实 用</b></dt>
+  <dd><a href="https://note.youdao.com/" target="_blank">有道云笔记</a></dd>
+  <dd><a href="https://yunpan1.com/" target="_blank">阿里云盘搜索</a></dd>
 </dl>
-
-
 
 <dl class="alt">  <!--     补实用    -->
-<dt>&nbsp;&nbsp;&nbsp;</dt>
-<!-- <dd><a href="https://web.shiguangxu.com/home/matter/all" target="_blank"> 时光序(GTD)</a></dd>-->
-<!-- <dd><a href="https://www.processon.com" target="_blank">ProcessOn</a></dd> -->
-<dd><a href="https://huatuben.com/" target="_blank">画图本</a></dd>
-<dd><a href="https://github.com/xyzsss" target="_blank">Github</a></dd>
-<!-- <dd><a href="https://app.xunjiepdf.com/" target="_blank">迅捷PDF</a></dd> -->
-<!-- <dd><a href="http://www.drugfuture.com/cnpat/cn_patent.asp" target="_blank">专利下载</a></dd> -->
-<!-- <dd><a href="http://naotu.baidu.com/" target="_blank">百度脑图</a></dd> -->
-<!-- <dd><a href="https://www.qiniu.com/" target="_blank">七牛云</a></dd> -->
-<dd><a href="https://www.aliyun.com" target="_blank">阿里云</a></dd>
-<!-- <dd><a href="https://www.csdn.net" target="_blank">CSDN</a></dd> -->
+  <dt>&nbsp;&nbsp;&nbsp;</dt>
+  <dd><a href="https://github.com/xyzsss" target="_blank">Github</a></dd>
+  <dd><a href="https://www.aliyun.com" target="_blank">阿里云</a></dd>
 </dl>
 
-<!--     补实用    -->
-<!-- <dl class="alt">
-<dt>&nbsp;&nbsp;&nbsp;</dt>
-<dd><a href="https://www.wolframalpha.com/" target="_blank">Wolfram</a></dd>
-<dd><a href="https://uzer.me/" target="_blank">UserMe</a></dd>
-<dd><a href="https://www.draw.io/" target="_blank">DrawIO</a></dd>
-<dd><a href="https://chartify.io/" target="_blank">Chartify</a></dd>
- <dd><a href="https://www.iconfont.cn/" target="_blank">图标库</a></dd>
-</dl> -->
+<dl class="alt">
+    <dt><b>工 具</b></dt>
+    <dd><a href="https://fanyi.youdao.com/" target="_blank">有道翻译</a></dd>
+    <dd><a href="https://app.xunjiepdf.com/" target="_blank">迅捷PDF</a></dd>
+    <dt>&nbsp;&nbsp;&nbsp;</dt>
+    <dd><a href="https://www.processon.com" target="_blank">ProcessOn</a></dd>
+    <dd><a href="http://www.drugfuture.com/cnpat/cn_patent.asp" target="_blank">专利下载</a></dd>
+    <dt>&nbsp;&nbsp;&nbsp;</dt>
+    <dd><a href="http://mail.qq.com" target="_blank">qq邮箱</a></dd>
+</dl>
+
 
 <dl >
-<dt><b>购 物</b></dt>
-<dd><a href="https://www.taobao.com/" target="_blank">淘 宝</a></dd>
-<!-- <dd><a href="https://www.tmall.com/" target="_blank">天 猫</a></dd> -->
-<dd><a href="https://www.jd.com/" target="_blank">京 东</a></dd>
-<dd><a href="http://www.smzdm.com" target="_blank">值得买</a></dd>
-<dd><a href="http://www.alimama.com" target="_blank">淘宝联盟</a></dd>
-<dd><a href="https://union.jd.com/index" target="_blank">京东联盟</a></dd>
-<!-- <dd><a href="http://www.dangdang.com" target="_blank">当 当</a></dd> -->
+  <dt><b>购 物</b></dt>
+  <dd><a href="https://www.taobao.com/" target="_blank">淘 宝</a></dd>
+  <dd><a href="https://www.jd.com/" target="_blank">京 东</a></dd>
+  <dd><a href="http://www.smzdm.com" target="_blank">值得买</a></dd>
+  <dd><a href="http://www.alimama.com" target="_blank">淘宝联盟</a></dd>
+  <dd><a href="https://union.jd.com/index" target="_blank">京东联盟</a></dd>
 </dl>
 
-<dl>  <!--     补购物    -->
-<dt>&nbsp;&nbsp;&nbsp;</dt>
-
-<dd><a href="http://www.dianping.com/" target="_blank">大众点评</a></dd>
-
-
-</dl>
-
-
-
-
-
-
+ 
+ 
 
 <dl class="alt">
 <dt><b>影 音</b></dt>
 <dd><a href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a></dd>
-<dd><a href="http://mcar.vip/" target="_blank">美剧</a></dd>
+<dd><a href="http://mcar.vip/" target="_blank">耐卡美剧</a></dd>
 <dd><a href="https://www.youtube.com" target="_blank">Youtube</a></dd>
 </dl>
 <!--  <dl class="alt">      补娱乐
 <dt>&nbsp;&nbsp;&nbsp;</dt>
 <dd><a href="https://wx.qq.com/" target="_blank">微 信</a></dd>
-
-
 </dl>    -->
-
-
 
 
 <dl>
@@ -376,110 +295,40 @@ return false;
  <dd><a href="https://www.jiumodiary.com/" target="_blank">鸠摩搜书</a></dd>
 </dl>
 
-
-
-
-
-
-
-
-<!-- <dl class="alt">
-<dt><b>学 校</b></dt>
-<dd><a href="http://www.gzmu.edu.cn/" target="_blank">贵州民大</a></dd>
-<dd><a href="http://oa.gzmu.edu.cn/zfoa/index.do" target="_blank">办公系统</a></dd>
-<dd><a href="http://lxy.gzmu.edu.cn/" target="_blank">机电学院</a></dd>
-<dd><a href="http://rsc.gzmu.edu.cn/" target="_blank">人事处</a></dd>
-<dd><a href="http://kyc.gzmu.edu.cn" target="_blank">科研院</a></dd>
-<dd><a href="https://isisn.nsfc.gov.cn/egrantweb/" target="_blank">自科申报</a></dd>
-<dd><a href="http://xmgl.kjt.guizhou.gov.cn" target="_blank">项目管理II</a></dd> -->
-
-
-<!-- </dl>
-<dl class="alt">
-<dt><b>&nbsp;&nbsp;&nbsp;</b></dt>
-
- <dd><a href="http://58.16.86.185:9093/eduky/login.jsp" target="_blank">项目管理I</a></dd>
-<dd><a href="http://stns.gzsti.org.cn" target="_blank">科技查新</a></dd>
-<dd><a href="http://user.gzzj.ghlearning.com/index" target="_blank">继续教育</a></dd>
-<dd><a href="http://xf.faxuan.net/" target="_blank">法宣在线</a></dd>
-<dd><a href="https://vgms.fanyu.com/" target="_blank">毕业论文</a></dd>
-<dd><a href="https://www.zhihuishu.com/" target="_blank">智慧树</a></dd>
- <dd><a href="http://10.100.0.100/jwglxt/xtgl/login_slogin.html" target="_blank">教务系统</a></dd>
-</dl> -->
-
-
+ 
+ <!-- 
 <dl >
 <dt><b>前人</b></dt>
-<!-- <dd><a href="http://rfly.buaa.edu.cn/index.html" target="_blank">BU-RFCG</a></dd>
-<dd><a href="http://kumar.grasp.upenn.edu/" target="_blank">GRASP</a></dd>
-<dd><a href="http://www2.seas.gwu.edu/~tylee/" target="_blank">Ty_Lee</a></dd>
-<dd><a href="https://hybrid-robotics.berkeley.edu/koushil/" target="_blank">Sreenath</a></dd>
-<dd><a href="http://sarahtang.net/" target="_blank">SarahTang</a></dd> -->
-
+<dd><a href="http://rfly.buaa.edu.cn/index.html" target="_blank">BU-RFCG</a></dd>
 </dl>
+ -->
 
-
-
-
-
+ 
 <dl class="alt">
 <dt><b>社 区</b></dt>
 <dd><a href="https://www.v2ex.com/" target="_blank">V2EX</a></dd>
 <dd><a href="http://weibo.com/" target="_blank">新浪微博</a></dd>
- </dl>
-<!--
-<dl class="alt">
-<dt><b>&nbsp;&nbsp;&nbsp;</b></dt>
-<dd><a href="https://twitter.com/" target="_blank">Twitter</a></dd>
-<dd><a href="https://www.quora.com/" target="_blank">Quora</a></dd>
-<dd><a href="https://www.ilovematlab.cn" target="_blank">Matlab论坛</a></dd> -->
-
+<dd><a href="http://twitter.com/" target="_blank">Twitter</a></dd>
 </dl>
 
 
 
-</body>
+
+
 
 <dl >
 <dt><b>学 习</b></dt>
 <dd><a href="https://www.bilibili.com" target="_blank">bilibili</a></dd>
-
+<dd><a href="http://www.dxzy163.com/" target="_blank">大学资源</a></dd>
 </dl>
 
 <dl >
- <!--     补学习    -->
 <dt>&nbsp;&nbsp;&nbsp;</dt>
 <dd><a href="https://golang.google.cn/doc/effective_go" target="_blank">Golang</a></dd>
-<dd><a href="http://www.dxzy163.com/" target="_blank">大学资源</a></dd>
-
 </dl>
 
 
-<!-- <dl class="alt">
-<dt><b>银 行</b></dt>
-<dd><a href="https://www.sui.com" target="_blank">随手记</a></dd>
-<dd><a href="http://www.cmbchina.com/" target="_blank">招商银行</a></dd>
-<dd><a href="http://www.cgbchina.com.cn/" target="_blank">广发银行</a></dd>
-<dd><a href="http://www.cebbank.com/" target="_blank">光大银行</a></dd>
-<dd><a href="http://www.abchina.com/cn/" target="_blank">农业银行</a></dd>
 
-</dl> -->
-
-<dl>
-<dt><b>出 行</b></dt>
-<dd><a href="http://map.baidu.com/" target="_blank">百度地图</a></dd>
-<dd><a href="http://www.12306.cn" target="_blank">火车票</a></dd>
-<dd><a href="https://www.fliggy.com" target="_blank">飞 猪</a></dd>
-<dd><a href="http://www.mafengwo.cn/" target="_blank">蚂蜂窝</a></dd>
-
-</dl>
-
-<!-- <dl class="alt">
-<dt><b>写 作</b></dt>
-<dd><a href="http://www.diyifanwen.com/" target="_blank">第一范文</a></dd>
-<dd><a href="http://www.xiangdang.net/" target="_blank">香当网</a></dd>
-<dd><a href="https://www.kancloud.cn/explore" target="_blank">看 云</a></dd>
-</dl> -->
 
 <dl>
 <dt><b>工 具</b></dt>
@@ -487,18 +336,13 @@ return false;
 <dd><a href="https://wallhere.com/" target="_blank">壁纸</a></dd>
 <dd><a href="https://rainyscope.com/" target="_blank">白噪音</a></dd>
 
+
+<dd><a href="https://www.jianguoyun.com/" target="_blank">坚果云</a></dd>
+<dd><a href="https://up.woozooo.com/mydisk.phh" target="_blank">蓝奏云</a></dd>
 </dl>
 
-<!-- <dl class="alt">
-<dt><b>英 语</b></dt>
-<dd><a href="https://www.deepl.com/translator" target="_blank">DeepL</a></dd>
-<dd><a href="https://www.hemingwayapp.com/  " target="_blank">Heming</a></dd>
-<dd><a href="http://www.phrasebank.manchester.ac.uk/" target="_blank">Phrasebank</a></dd>
- <dd><a href="https://www.grammarly.com/" target="_blank">Grammarly</a></dd>
-  <dd><a href="https://writeandimprove.com/" target="_blank">WriteImprove</a></dd>
-</dl> -->
 
-
+</body>
 <!-- body   页脚    -->
 <div class="footer">
 
